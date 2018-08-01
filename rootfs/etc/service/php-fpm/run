@@ -11,4 +11,4 @@ for file in /etc/secrets/* ; do
   export "$key=$value"
 done
 
-exec php-fpm7.1
+exec php-fpm7.2

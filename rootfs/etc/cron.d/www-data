@@ -4,4 +4,4 @@
 # http://smarden.org/runit/chpst.8.html
 # we run WP cron by root and switch to www-data with -m parameter which keeps
 # the environment variables
-*/5 * * * * www-data php /var/www/wordpress/wp-cron.php
+*/5 * * * * www-data php /var/www/public/blog/wp-cron.php
